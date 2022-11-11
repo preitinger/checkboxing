@@ -1,0 +1,106 @@
+.parent {
+  display:flex;
+  vertical-align: middle;
+}
+.board, .desc {
+  margin-top:40px;
+  margin-right:40px;
+  display:inline-block;
+}
+.board {
+  padding:10px;
+  text-align: center;
+  flex-shrink:0;
+  align-content:center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content:center;
+  align-content: center;
+  align-items:center;
+  align-self: center;
+}
+.seg {
+  display:flex;
+  flex-flow:row nowrap;
+}
+.desc {
+  padding:0;
+  vertical-align:top;
+  flex-grow:1;
+}
+.box {
+  margin:10px;
+  width:30px;
+  height:30px;
+  padding:0;
+  overflow:visible;
+  color:blue;
+  cursor:pointer;
+}
+.stateDiv {
+  border:3px solid rgb(155, 155, 0);
+  padding:3px;
+  margin:10px;
+}
+
+.highlight {
+  margin:0;
+  font-size: 50px;
+  padding:0;
+  background-color:rgb(155, 155, 0);
+}
+.notHighlight {
+  margin:0;
+  font-size: 50px;
+  padding:0;
+  background-color:inherit;
+}
+
+.congrats {
+  font-size:30px;
+  color:rgb(155, 155, 0);
+}
+
+.winner {
+  color:green;
+  font-weight: bold;
+}
+
+.preWinner {
+  font-size: 30px;
+  color:green;
+}
+
+.buttons {
+  padding:20px;
+}
+
+.variante {
+  color:#777;
+  font-style:italic;
+}
+
+table.setting {
+
+}
+
+tr.setting td {
+  padding: 10px;
+}
+
+.lightHint {
+  color:gray;
+  font-size:14px;
+}
+
+.hint {
+  color:rgb(155, 155, 0);
+}
+
+body {
+  background-color: #282c34;
+  color:#dddddd;
+}
