@@ -1,0 +1,87 @@
+.board {
+  display:flex row;
+  margin:10px;
+  align-items: center;
+  /* border:1px solid yellow; */
+}
+
+.box {
+  width:30px;
+  height:30px;
+  cursor:inherit;
+}
+
+.allowed {
+  cursor:pointer;
+}
+
+.unallowed {
+  cursor:not-allowed;
+}
+.wait {
+  cursor: wait;
+}
+
+.seg {
+  margin:2px;
+  padding:2px;
+  border:1px solid green;
+}
+
+.row {
+  margin:2px;
+  display: flex;
+  justify-content:center;
+}
+
+.highlighted {
+  background-color:rgb(155, 155, 0);
+}
+
+.rules, .tip {
+  display:block;
+  /* margin:20px; */
+}
+.none {
+  display:none;
+}
+.main {
+  margin-top:50px;
+  display: flex;
+}
+.left {
+  flex-shrink: 0;
+}
+.right {
+  margin-left:50px;
+  flex-shrink: 1;
+}
+
+.toggled, .untoggled {
+  border-width: 2px;
+  margin:3px;
+}
+
+.toggled {
+  border-style:inset;
+  background-color:rgb(160, 160, 160);
+}
+.untoggled {
+  border-style:outset;
+  background-color:rgb(220, 220, 220);
+}
+.toggled:hover {
+  background-color:rgb(140, 180, 200);
+}
+.untoggled:hover {
+  background-color:rgb(200, 220, 255);
+}
+
+.lightHint {
+  color:gray;
+  font-size:smaller;
+}
+
+body {
+    margin:50px;
+}
