@@ -21,6 +21,9 @@ function max(a: ?number, b: ?number) {
 }
 
 class Segment {
+  // $FlowIgnore
+  [immerable] = true;
+
   key: number;
   size: number;
   toggled: boolean;
@@ -33,6 +36,9 @@ class Segment {
 }
 
 class Move {
+  // $FlowIgnore
+  [immerable] = true;
+
   segKey: number;
   first: number;
   last: number;
