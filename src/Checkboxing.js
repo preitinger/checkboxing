@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import produce from "immer";
+import {immerable} from "immer";
 
 import './Checkboxing.css';
 
